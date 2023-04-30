@@ -19,7 +19,6 @@
     },
 
 
-
     "[html]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -54,5 +53,4 @@
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
-    "redhat.telemetry.enabled": true,
 }
