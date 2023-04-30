@@ -18,6 +18,8 @@ dotfiles=(
 	.config/nvim
 	.config/helix
 	.config/VSCodium/User/settings.json
+
+    .config/systemd/user/syncthing.service
 )
 
 for file in "${dotfiles[@]}"; do
