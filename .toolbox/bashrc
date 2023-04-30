@@ -1,0 +1,17 @@
+# set prompt
+PS1="\e[0;35m\e[0m $PS1"
+
+# toolbox name
+TOOLBOX_NAME=$(sed -n '/name=\(.*\)/p' /run/.containerenv)
+
+# environment variables
+export PATH=$TOOLBOX/wrappers:$PATH
+export EDITOR=nvim
+
+
+# golang
+if which go &>/dev/null; then
+    export GOPATH=~/go
+    export GOBIN=$GOPATH/bin
+    export PATH=$GOBIN:$PATH
+fi

@@ -1,0 +1,13 @@
+# add container name to prompt
+container_name=$(sed -nr 's/name="(.*)"/\1/p' /run/.containerenv)
+RPROMPT="%F{13}$container_name%f"
+
+# add wrapper scripts to $PATH
+PATH=$PATH:$TOOLBOX/wrappers
+
+# set default editor
+EDITOR=nvim
+
+if which go &>/dev/null; then
+    PATH=$PATH:~/go/bin
+fi

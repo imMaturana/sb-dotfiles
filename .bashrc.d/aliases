@@ -1,0 +1,18 @@
+alias mv='mv -i'
+alias cp='cp -i'
+alias rm='rm -i'
+alias mkdir='mkdir -p'
+
+# cd
+alias ..='cd ..'
+alias '.2'='cd ../..'
+alias '.3'='cd ../../..'
+alias '.4'='cd ../../../..'
+alias '.5'='cd ../../../../..'
+
+# git
+alias ga='git add'
+alias gc='git commit'
+alias gca='git commit --amend'
+alias gb='git branch'
+alias gbD='git branch -D'

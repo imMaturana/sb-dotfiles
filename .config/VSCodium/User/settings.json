@@ -1,0 +1,58 @@
+{
+    "editor": {
+        "fontFamily": "'JetBrainsMono Nerd Font', monospace",
+        "fontLigatures": true,
+        "fontSize": 14,
+    },
+
+    "window": {
+        "menuBarVisibility": "toggle",
+    },
+
+    "workbench": {
+        "startupEditor": "none",
+        "iconTheme": "material-icon-theme",
+    },
+
+    "files.associations": {
+        "*.tmpl": "html",
+    },
+
+
+
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[gotmpl]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[scss]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "redhat.telemetry.enabled": true,
+}
